@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contatore di Visite</title>
+    <style>
+        body {
+            text-align: center; /* Per centrare il testo */
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Altezza della viewport per centrare verticalmente */
+        }
+
+        img {
+            width: 200px; /* Larghezza desiderata per l'immagine */
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="/static/banana.jpg" alt="Banana">
+        <h1>Questa banana è stata venduta {{ visite }} volte.</h1>
+    </div>
+</body>
+</html>
